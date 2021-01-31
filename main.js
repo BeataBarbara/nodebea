@@ -19,6 +19,11 @@ app.get('/number', function(req, res) {
         subPageTitle2: fromAnotherFile.subPageTitle2
     })
 })
+app.get('/about', function(req, res) {
+    res.render('about', {
+        subPageTitleAbout: fromAnotherFile.subPageTitleAbout
+    })
+})
 app.get('/', function(req, res) {
     res.render('index', {
         pageTitle: "Me and Node",

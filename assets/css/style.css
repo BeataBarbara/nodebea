@@ -1,3 +1,25 @@
-body {
-    background-color: violet
-}
+    body {
+        background-color: violet
+    }
+    
+    div {
+        display: flex;
+        padding: 0 10px 0 10px
+    }
+    
+    main {
+        width: 600%;
+        margin-right: 20px;
+    }
+    
+    .numbersContainer {
+        background-color: rgb(231, 193, 231);
+        width: 95%;
+        padding: 15px;
+        border-color: black;
+        border-radius: 10px;
+    }
+    
+    .columns {
+        flex-direction: column;
+    }
